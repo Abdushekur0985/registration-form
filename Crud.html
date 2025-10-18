@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Crud.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+</head>
+<body>
+    
+<form action="http://localhost:3000/mytable" method="POST" class="my-form">
+  <input type="text" name="firstname" placeholder="First Name" />
+  <input type="text" name="lastname" placeholder="Last Name" />
+  <input type="text" name="city" placeholder="City" />
+  <input type="email" name="email" placeholder="Email" />
+  <input type="password" name="password" placeholder="Password" />
+  <button type="submit">Submit</button>
+  <!-- -->
+</form>
+<button type="button" onclick="deleteAll()">Delete All Data</button>
+    <script src="./CrudScript.js"></script>
+</body>
+</html>
